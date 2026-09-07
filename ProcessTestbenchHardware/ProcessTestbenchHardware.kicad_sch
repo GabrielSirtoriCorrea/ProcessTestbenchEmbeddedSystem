@@ -4790,16 +4790,6 @@
 		)
 		(uuid "3602bb3c-bb95-4229-b63b-be53f7b952ef")
 	)
-	(text "Power Supply"
-		(exclude_from_sim no)
-		(at 89.916 23.622 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "a20b8d7f-89c9-478d-bd39-52a50c931981")
-	)
 	(text "Control Module"
 		(exclude_from_sim no)
 		(at 27.178 94.996 0)
@@ -7437,7 +7427,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Screw_Terminal_01x03"
+		(property "Value" "Fluxo3"
 			(at 51.816 170.18 90)
 			(hide yes)
 			(show_name no)
@@ -7449,7 +7439,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-03P_1x03_P5.00mm"
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal"
 			(at 60.96 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -7612,7 +7602,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
 			(at 195.58 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -8083,7 +8073,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Screw_Terminal_01x03"
+		(property "Value" "Fluxo2"
 			(at 36.576 168.91 90)
 			(hide yes)
 			(show_name no)
@@ -8095,7 +8085,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-03P_1x03_P5.00mm"
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal"
 			(at 45.72 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -8168,7 +8158,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Screw_Terminal_01x03"
+		(property "Value" "Fluxo1"
 			(at 21.336 168.91 90)
 			(hide yes)
 			(show_name no)
@@ -8180,7 +8170,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-03P_1x03_P5.00mm"
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal"
 			(at 30.48 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -8264,7 +8254,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm"
+		(property "Footprint" "Capacitor_THT:C_Radial_D5.0mm_H7.0mm_P2.00mm"
 			(at 36.83 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -8564,7 +8554,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "28cbe5ef-a9fe-4e80-a538-756a0178b56f")
-		(property "Reference" "J3"
+		(property "Reference" "DimmerControlPins1"
 			(at 154.94 33.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8586,7 +8576,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-04P_1x04_P5.00mm"
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-4-5.08_1x04_P5.08mm_Horizontal"
 			(at 152.4 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -8634,7 +8624,7 @@
 		(instances
 			(project "ProcessTestbenchHardware"
 				(path "/0e048d9d-f3f0-4872-84a4-2c81d9eb5401"
-					(reference "J3")
+					(reference "DimmerControlPins1")
 					(unit 1)
 				)
 			)
@@ -8889,7 +8879,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3c0dccde-8134-44b7-8cbf-a608ac6bd207")
-		(property "Reference" "U6"
+		(property "Reference" "LM358"
 			(at 160.02 130.81 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8969,7 +8959,7 @@
 		(instances
 			(project "ProcessTestbenchHardware"
 				(path "/0e048d9d-f3f0-4872-84a4-2c81d9eb5401"
-					(reference "U6")
+					(reference "LM358")
 					(unit 3)
 				)
 			)
@@ -9006,7 +8996,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 266.954 110.744 90)
 			(hide yes)
 			(show_name no)
@@ -9144,7 +9134,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "429e1c01-76cb-4bb9-86e9-0ffe1362ba37")
-		(property "Reference" "J2"
+		(property "Reference" "ModuloRS485"
 			(at 93.98 173.9899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9166,7 +9156,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_1.00mm:PinSocket_1x04_P1.00mm_Vertical"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
 			(at 92.71 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -9214,7 +9204,7 @@
 		(instances
 			(project "ProcessTestbenchHardware"
 				(path "/0e048d9d-f3f0-4872-84a4-2c81d9eb5401"
-					(reference "J2")
+					(reference "ModuloRS485")
 					(unit 1)
 				)
 			)
@@ -9332,7 +9322,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
 			(at 218.44 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -9413,7 +9403,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm"
+		(property "Footprint" "Capacitor_THT:C_Radial_D5.0mm_H7.0mm_P2.00mm"
 			(at 69.85 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -9974,7 +9964,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
 			(at 218.44 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -10054,7 +10044,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-04P_1x04_P5.00mm"
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-4-5.08_1x04_P5.08mm_Horizontal"
 			(at 273.05 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -10396,7 +10386,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
 			(at 195.58 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -10479,7 +10469,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
 			(at 227.33 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -10562,7 +10552,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
 			(at 177.8 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -10799,7 +10789,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 120.396 157.734 90)
 			(hide yes)
 			(show_name no)
@@ -10881,7 +10871,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 133.604 125.476 90)
 			(hide yes)
 			(show_name no)
@@ -10941,7 +10931,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6c67f06e-647c-4afe-a7ea-0c88852bfdee")
-		(property "Reference" "U6"
+		(property "Reference" "LM358"
 			(at 161.29 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11021,7 +11011,7 @@
 		(instances
 			(project "ProcessTestbenchHardware"
 				(path "/0e048d9d-f3f0-4872-84a4-2c81d9eb5401"
-					(reference "U6")
+					(reference "LM358")
 					(unit 1)
 				)
 			)
@@ -11272,7 +11262,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "75d8a968-7683-4c58-b7ba-0f470c9ccf2e")
-		(property "Reference" "U2"
+		(property "Reference" "StepDown1"
 			(at 113.0605 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11340,7 +11330,7 @@
 		(instances
 			(project "ProcessTestbenchHardware"
 				(path "/0e048d9d-f3f0-4872-84a4-2c81d9eb5401"
-					(reference "U2")
+					(reference "StepDown1")
 					(unit 1)
 				)
 			)
@@ -11381,7 +11371,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
 			(at 129.54 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -11464,7 +11454,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
 			(at 153.67 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -12097,7 +12087,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-04P_1x04_P5.00mm"
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-4-5.08_1x04_P5.08mm_Horizontal"
 			(at 246.38 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -12182,7 +12172,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 141.224 119.634 90)
 			(hide yes)
 			(show_name no)
@@ -12342,7 +12332,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 115.316 112.014 90)
 			(hide yes)
 			(show_name no)
@@ -12717,8 +12707,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9db05e2f-bc1d-4382-9ad4-d4e8f3b722c9")
-		(property "Reference" "J1"
-			(at 85.344 37.592 0)
+		(property "Reference" "PowerSuply1"
+			(at 91.948 27.686 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12728,7 +12718,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Screw_Terminal_01x02"
+		(property "Value" "PowerSuply"
 			(at 85.598 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -12740,7 +12730,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
 			(at 85.09 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -12782,7 +12772,7 @@
 		(instances
 			(project "ProcessTestbenchHardware"
 				(path "/0e048d9d-f3f0-4872-84a4-2c81d9eb5401"
-					(reference "J1")
+					(reference "PowerSuply1")
 					(unit 1)
 				)
 			)
@@ -12823,7 +12813,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
 			(at 203.2 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -13450,7 +13440,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ac656aab-5f05-470f-bb58-286b67bb6aa6")
-		(property "Reference" "U6"
+		(property "Reference" "LM358"
 			(at 161.29 165.1 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13530,7 +13520,7 @@
 		(instances
 			(project "ProcessTestbenchHardware"
 				(path "/0e048d9d-f3f0-4872-84a4-2c81d9eb5401"
-					(reference "U6")
+					(reference "LM358")
 					(unit 2)
 				)
 			)
@@ -13571,7 +13561,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
 			(at 105.41 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -14083,7 +14073,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 221.996 151.384 90)
 			(hide yes)
 			(show_name no)
@@ -14242,7 +14232,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
 			(at 274.32 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -14457,7 +14447,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c86514aa-c7a1-4836-953a-6bc7353c8e79")
-		(property "Reference" "U3"
+		(property "Reference" "ICL7660"
 			(at 58.42 126.238 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14537,7 +14527,7 @@
 		(instances
 			(project "ProcessTestbenchHardware"
 				(path "/0e048d9d-f3f0-4872-84a4-2c81d9eb5401"
-					(reference "U3")
+					(reference "ICL7660")
 					(unit 1)
 				)
 			)
@@ -14577,7 +14567,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 199.136 117.094 90)
 			(hide yes)
 			(show_name no)
@@ -14973,7 +14963,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 138.684 169.926 90)
 			(hide yes)
 			(show_name no)
@@ -15054,7 +15044,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm"
+		(property "Footprint" "Capacitor_THT:C_Radial_D5.0mm_H7.0mm_P2.00mm"
 			(at 81.28 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -15213,7 +15203,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 199.136 151.384 90)
 			(hide yes)
 			(show_name no)
@@ -15292,7 +15282,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 242.824 109.474 90)
 			(hide yes)
 			(show_name no)
@@ -15529,7 +15519,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 221.996 117.094 90)
 			(hide yes)
 			(show_name no)
@@ -15686,7 +15676,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 146.304 164.084 90)
 			(hide yes)
 			(show_name no)
@@ -15823,7 +15813,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "df600f65-e9ec-4c60-9c01-fbd66bc6bcb9")
-		(property "Reference" "U4"
+		(property "Reference" "AD620_1"
 			(at 144.78 105.3398 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15903,7 +15893,7 @@
 		(instances
 			(project "ProcessTestbenchHardware"
 				(path "/0e048d9d-f3f0-4872-84a4-2c81d9eb5401"
-					(reference "U4")
+					(reference "AD620_1")
 					(unit 1)
 				)
 			)
@@ -16341,7 +16331,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
 			(at 250.19 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -16556,7 +16546,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fb60e9af-2aec-4d51-8403-a59767fe6a1a")
-		(property "Reference" "U5"
+		(property "Reference" "AD620_2"
 			(at 147.066 150.622 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16636,7 +16626,7 @@
 		(instances
 			(project "ProcessTestbenchHardware"
 				(path "/0e048d9d-f3f0-4872-84a4-2c81d9eb5401"
-					(reference "U5")
+					(reference "AD620_2")
 					(unit 1)
 				)
 			)
