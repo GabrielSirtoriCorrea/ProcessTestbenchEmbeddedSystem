@@ -429,7 +429,7 @@
         "uuid": "0e048d9d-f3f0-4872-84a4-2c81d9eb5401"
       }
     ],
-    "used_designators": "Q1-6,A1,Term.1,#PWR1-49,R1-12,J1-17,U1-7,SW1-7,C1-6",
+    "used_designators": "Q1-6,A1,Term.1,#PWR1-49,R1-12,J1-17,U1-7,SW1-7,C1-6,Agitador1,Peltier1,LSHH3",
     "variants": []
   },
   "sheets": [

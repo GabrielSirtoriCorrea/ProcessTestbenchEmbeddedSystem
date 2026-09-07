@@ -3773,156 +3773,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_SPST"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "SW"
-				(at 0 3.175 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SW_SPST"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Single Pole Single Throw (SPST) switch"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "switch lever"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SW_SPST_0_0"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 0.254) (xy 1.524 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SW_SPST_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Transistor_FET:IRF540N"
 			(pin_names
 				(hide yes)
@@ -4967,6 +4817,12 @@
 		(uuid "330e63c2-a636-473b-8044-ffb2208880cb")
 	)
 	(junction
+		(at 212.09 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3ed5c5c8-dbf7-4d2f-bb67-df752abace97")
+	)
+	(junction
 		(at 134.62 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4997,6 +4853,12 @@
 		(uuid "764c14aa-3a02-460d-b5f9-bb120668a0a3")
 	)
 	(junction
+		(at 233.68 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7ca49534-d4ee-41bf-a487-6293430f615e")
+	)
+	(junction
 		(at 93.98 31.75)
 		(diameter 0)
 		(color 255 0 0 1)
@@ -5021,22 +4883,16 @@
 		(uuid "8730e693-273d-4d59-9848-4ba43cc00893")
 	)
 	(junction
-		(at 236.22 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "95ef5e2d-ee6d-42b9-a59a-d19ff58e6b36")
-	)
-	(junction
-		(at 212.09 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a7292097-e9ce-4186-9663-846b5372a5dd")
-	)
-	(junction
 		(at 80.01 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ae9bfc54-cb60-424b-8880-58d1534545ab")
+	)
+	(junction
+		(at 236.22 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b140fb0e-70e1-4fb5-9cf4-54c2d37ad467")
 	)
 	(junction
 		(at 139.7 165.1)
@@ -5550,6 +5406,16 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 111.76) (xy 233.68 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cdb5a62-fe18-44e6-a286-29eff64cfd2b")
+	)
+	(wire
+		(pts
 			(xy 123.19 34.29) (xy 123.19 36.83)
 		)
 		(stroke
@@ -6060,6 +5926,16 @@
 			(type default)
 		)
 		(uuid "a26fc6b2-fa0d-47be-9f08-890c87dfae00")
+	)
+	(wire
+		(pts
+			(xy 233.68 110.49) (xy 233.68 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a38432d8-7fe3-423f-a4a4-b6ce6d7cfbc1")
 	)
 	(wire
 		(pts
@@ -6696,6 +6572,16 @@
 			(color 0 0 0 1)
 		)
 		(uuid "eab0a90d-fd48-49f9-9a86-c6455a268a04")
+	)
+	(wire
+		(pts
+			(xy 201.93 111.76) (xy 209.55 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecd43f84-9ac8-4efb-85cb-88850f7ba7d3")
 	)
 	(wire
 		(pts
@@ -7510,7 +7396,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-03P_1x03_P5.00mm"
 			(at 142.24 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -7634,6 +7520,88 @@
 			(project "ProcessTestbenchHardware"
 				(path "/0e048d9d-f3f0-4872-84a4-2c81d9eb5401"
 					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 209.55 106.68 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0710bac6-bb20-47f2-80c9-7496b4bfa4e8")
+		(property "Reference" "LSHH1"
+			(at 212.598 103.886 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 204.47 107.188 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
+			(at 209.55 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 209.55 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8dba6dbf-f7c2-4a1d-aa93-370d22245878")
+		)
+		(pin "1"
+			(uuid "cf15655f-fae5-44c5-a6c3-52ac74a5c9c2")
+		)
+		(instances
+			(project "ProcessTestbenchHardware"
+				(path "/0e048d9d-f3f0-4872-84a4-2c81d9eb5401"
+					(reference "LSHH1")
 					(unit 1)
 				)
 			)
@@ -7993,7 +7961,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-03P_1x03_P5.00mm"
 			(at 157.48 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -8077,7 +8045,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm"
 			(at 36.83 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -8400,7 +8368,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
 			(at 23.8252 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -8557,7 +8525,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 171.704 33.274 90)
 			(hide yes)
 			(show_name no)
@@ -8717,7 +8685,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_1.00mm:PinSocket_1x04_P1.00mm_Vertical"
 			(at 266.7 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -8805,7 +8773,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
 			(at 269.24 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -8886,7 +8854,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm"
 			(at 69.85 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -9414,6 +9382,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 233.68 106.68 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4fb3b79b-9722-4654-803a-47acf0e08ac3")
+		(property "Reference" "LSLL1"
+			(at 236.728 103.886 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 228.6 107.188 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
+			(at 233.68 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 233.68 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "2df8cea8-9ddb-4445-9913-ae480c26ccb5")
+		)
+		(pin "1"
+			(uuid "292e16f6-3ed0-4ba6-aa79-2fc938b796b7")
+		)
+		(instances
+			(project "ProcessTestbenchHardware"
+				(path "/0e048d9d-f3f0-4872-84a4-2c81d9eb5401"
+					(reference "LSLL1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Screw_Terminal_01x04")
 		(at 234.95 140.97 90)
 		(unit 1)
@@ -9445,7 +9495,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-04P_1x04_P5.00mm"
 			(at 234.95 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -9504,10 +9554,10 @@
 		(at 205.74 36.83 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "57710c9e-07fd-4be1-b409-6d4ea07f5d84")
@@ -9608,7 +9658,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5926a1dc-b3a7-4b18-8f8a-1932d9751b70")
 		(property "Reference" "U2"
 			(at 113.0605 26.67 0)
@@ -9620,8 +9669,8 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 113.03 33.02 0)
+		(property "Value" "StepDownConverter"
+			(at 113.03 38.862 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9630,7 +9679,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "AddOnsLibrary:StepDownFootprint"
 			(at 113.03 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -9796,7 +9845,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
 			(at 242.57 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -9879,7 +9928,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
 			(at 227.33 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -9939,7 +9988,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "601a15a1-4b9e-4a38-bdc5-6be026848120")
-		(property "Reference" "Agitador"
+		(property "Reference" "Agitador1"
 			(at 180.848 72.644 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9962,7 +10011,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
 			(at 177.8 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -10004,7 +10053,7 @@
 		(instances
 			(project "ProcessTestbenchHardware"
 				(path "/0e048d9d-f3f0-4872-84a4-2c81d9eb5401"
-					(reference "Agitador")
+					(reference "Agitador1")
 					(unit 1)
 				)
 			)
@@ -10199,7 +10248,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 120.396 157.734 90)
 			(hide yes)
 			(show_name no)
@@ -10281,7 +10330,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 133.604 125.476 90)
 			(hide yes)
 			(show_name no)
@@ -10361,7 +10410,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
 			(at 161.29 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -10618,7 +10667,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
 			(at 129.54 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -10678,7 +10727,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "78f590f3-dc5a-4aef-baf9-47d46ad39ab4")
-		(property "Reference" "Peltier"
+		(property "Reference" "Peltier1"
 			(at 156.718 72.644 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10701,7 +10750,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
 			(at 153.67 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -10743,7 +10792,7 @@
 		(instances
 			(project "ProcessTestbenchHardware"
 				(path "/0e048d9d-f3f0-4872-84a4-2c81d9eb5401"
-					(reference "Peltier")
+					(reference "Peltier1")
 					(unit 1)
 				)
 			)
@@ -11256,7 +11305,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-04P_1x04_P5.00mm"
 			(at 208.28 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -11341,7 +11390,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 141.224 119.634 90)
 			(hide yes)
 			(show_name no)
@@ -11384,86 +11433,6 @@
 			(project "ProcessTestbenchHardware"
 				(path "/0e048d9d-f3f0-4872-84a4-2c81d9eb5401"
 					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_SPST")
-		(at 207.01 111.76 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9108549f-bac7-469b-8907-ea639c78fde9")
-		(property "Reference" "SW7"
-			(at 207.01 105.41 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LSHH1"
-			(at 207.01 107.95 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 207.01 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 207.01 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 207.01 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "b1a75e44-2298-4121-9dd7-96c2e50bb8d6")
-		)
-		(pin "1"
-			(uuid "0315d038-a87f-404a-ae22-72d5e5ad5619")
-		)
-		(instances
-			(project "ProcessTestbenchHardware"
-				(path "/0e048d9d-f3f0-4872-84a4-2c81d9eb5401"
-					(reference "SW7")
 					(unit 1)
 				)
 			)
@@ -11581,7 +11550,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 115.316 112.014 90)
 			(hide yes)
 			(show_name no)
@@ -11702,86 +11671,6 @@
 			(project "ProcessTestbenchHardware"
 				(path "/0e048d9d-f3f0-4872-84a4-2c81d9eb5401"
 					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_SPST")
-		(at 231.14 111.76 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "97880d61-076d-4819-9db7-cf85c10469c7")
-		(property "Reference" "SW6"
-			(at 231.14 105.41 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LSLL1"
-			(at 231.14 107.95 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 231.14 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 231.14 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 231.14 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "1d410d36-3907-47f8-a1df-e0729e85e4f4")
-		)
-		(pin "1"
-			(uuid "0f4b29c1-9574-4449-b758-8c8a358b6ff6")
-		)
-		(instances
-			(project "ProcessTestbenchHardware"
-				(path "/0e048d9d-f3f0-4872-84a4-2c81d9eb5401"
-					(reference "SW6")
 					(unit 1)
 				)
 			)
@@ -11976,7 +11865,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
 			(at 94.9452 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -12059,7 +11948,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
 			(at 85.09 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -12142,7 +12031,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
 			(at 203.2 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -12224,7 +12113,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
 			(at 229.87 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -12547,7 +12436,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
 			(at 229.87 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -12685,7 +12574,7 @@
 		(lib_id "Amplifier_Operational:LM358")
 		(at 161.29 154.94 0)
 		(mirror x)
-		(unit 1)
+		(unit 2)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12693,7 +12582,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ac656aab-5f05-470f-bb58-286b67bb6aa6")
-		(property "Reference" "U7"
+		(property "Reference" "U6"
 			(at 161.29 165.1 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12713,7 +12602,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
 			(at 161.29 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -12773,8 +12662,8 @@
 		(instances
 			(project "ProcessTestbenchHardware"
 				(path "/0e048d9d-f3f0-4872-84a4-2c81d9eb5401"
-					(reference "U7")
-					(unit 1)
+					(reference "U6")
+					(unit 2)
 				)
 			)
 		)
@@ -12814,7 +12703,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
 			(at 105.41 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -13047,7 +12936,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Dsub:DSUB-15-HD_Pins_Horizontal_P2.29x2.54mm_EdgePinOffset8.35mm_Housed_MountingHolesOffset10.89mm"
 			(at 236.22 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -13323,7 +13212,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 272.796 32.004 90)
 			(hide yes)
 			(show_name no)
@@ -13482,7 +13371,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
 			(at 181.61 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -13717,7 +13606,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
 			(at 60.96 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -13817,7 +13706,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 213.106 118.364 90)
 			(hide yes)
 			(show_name no)
@@ -14053,7 +13942,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
 			(at 62.23 120.9548 0)
 			(hide yes)
 			(show_name no)
@@ -14213,7 +14102,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 138.684 169.926 90)
 			(hide yes)
 			(show_name no)
@@ -14294,7 +14183,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm"
 			(at 81.28 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -14453,7 +14342,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 246.126 32.004 90)
 			(hide yes)
 			(show_name no)
@@ -14532,7 +14421,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 259.334 113.284 90)
 			(hide yes)
 			(show_name no)
@@ -14769,7 +14658,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 237.236 118.364 90)
 			(hide yes)
 			(show_name no)
@@ -14926,7 +14815,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 146.304 164.084 90)
 			(hide yes)
 			(show_name no)
@@ -15083,7 +14972,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
 			(at 132.08 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -15581,7 +15470,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
 			(at 269.24 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -15738,7 +15627,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
 			(at 137.16 157.48 0)
 			(hide yes)
 			(show_name no)
