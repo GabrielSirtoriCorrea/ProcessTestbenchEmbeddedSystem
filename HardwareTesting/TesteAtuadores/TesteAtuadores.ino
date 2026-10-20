@@ -29,17 +29,20 @@ void setup() {
   pinMode(9, OUTPUT);
   pinMode(6, OUTPUT);
   pinMode(5, OUTPUT);
-  //digitalWrite(6, HIGH);
+  digitalWrite(6, HIGH);
   
-  digitalWrite(5, HIGH);
+  //digitalWrite(5, HIGH);
+  digitalWrite(9, HIGH);
+  
 }
 
 // the loop function runs over and over again forever
 void loop() {
-  //digitalWrite(10, HIGH);  // change state of the LED by setting the pin to the HIGH voltage level
+  //analogWrite(10, 150);  150 Valor mínimo bomba Tanque 1 // change state of the LED by setting the pin to the HIGH voltage level
   //digitalWrite(9, LOW);
   //delay(10000);                      // wait for a second
   //digitalWrite(10, LOW);   // change state of the LED by setting the pin to the LOW voltage level
   //digitalWrite(9, HIGH);
+  //analogWrite(9, 90);   90 Valor minimo Bomba tanque 2
   //delay(10000);                      // wait for a second
 }

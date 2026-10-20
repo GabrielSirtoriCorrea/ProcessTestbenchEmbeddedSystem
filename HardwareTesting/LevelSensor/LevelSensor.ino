@@ -31,7 +31,9 @@ unsigned long sum = 0;
 
 void setup() {
   // initialize serial communications at 9600 bps:
+  pinMode(10, OUTPUT);
   Serial.begin(9600);
+  digitalWrite(10, HIGH);
 }
 
 void loop() {
