@@ -21,7 +21,7 @@
 */
 
 // These constants won't change. They're used to give names to the pins used:
-#define analogInPin A0// Analog input pin that the potentiometer is attached to
+#define analogInPin A7// Analog input pin that the potentiometer is attached to
 //const int analogOutPin = 9;  // Analog output pin that the LED is attached to
 
 int sensorValue = 0;  // value read from the pot
@@ -33,7 +33,7 @@ void setup() {
   // initialize serial communications at 9600 bps:
   pinMode(10, OUTPUT);
   Serial.begin(9600);
-  digitalWrite(10, HIGH);
+  //digitalWrite(10, HIGH);
 }
 
 void loop() {

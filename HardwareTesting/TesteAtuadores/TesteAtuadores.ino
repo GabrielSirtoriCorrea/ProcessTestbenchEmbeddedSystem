@@ -29,10 +29,10 @@ void setup() {
   pinMode(9, OUTPUT);
   pinMode(6, OUTPUT);
   pinMode(5, OUTPUT);
-  digitalWrite(6, HIGH);
+  //digitalWrite(10, HIGH);
   
   //digitalWrite(5, HIGH);
-  digitalWrite(9, HIGH);
+  //digitalWrite(9, HIGH); //.004 em 3 mmHG
   
 }
 

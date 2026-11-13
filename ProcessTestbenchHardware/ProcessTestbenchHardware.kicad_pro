@@ -543,7 +543,7 @@
       "netlist": "",
       "plot": "../Fab/Gerbers/",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../Case/PCB.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
